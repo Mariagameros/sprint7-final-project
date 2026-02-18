@@ -109,3 +109,44 @@ Detalle del uso real de los servicios:
 - Evaluación de riesgo de churn.
 - Propuestas de mejora en la estructura de planes.
 - Estrategias de retención y upselling.
+
+  ## Ejecutar el Proyecto en Google Colab
+
+Haz clic en el siguiente botón:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](URL_DEL_NOTEBOOK_EN_GITHUB)
+
+O:
+
+1. Abre el archivo `.ipynb` en GitHub.
+2. Haz clic en **Open in Colab**.
+3. Ejecuta todas las celdas en orden.
+
+---
+
+## 📘 Cómo reproducir el análisis
+
+1. Abre el notebook principal: `notebooks/connectatel_analysis.ipynb`
+2. Asegúrate de que los archivos:
+   - `plans.csv`
+   - `users.csv`
+   - `usage.csv`
+   estén en la carpeta `/data/` o súbelos manualmente al entorno.
+3. Ejecuta las celdas en orden secuencial.
+4. Verifica que se creen correctamente las variables derivadas:
+   - `grupo_edad`
+   - `grupo_uso`
+   - `is_churn`
+5. Revisa las visualizaciones y conclusiones al final del notebook.
+
+---
+
+## 🧠 Objetivo del análisis
+
+- Identificar problemas de calidad de datos.
+- Construir un pipeline de limpieza reproducible.
+- Detectar valores inválidos y comportamientos atípicos (outliers).
+- Analizar patrones de consumo en llamadas y mensajes.
+- Crear segmentos de clientes por edad y nivel de uso.
+- Evaluar riesgo de churn.
+- Generar insights estratégicos para mejorar la oferta de planes de ConnectaTel.
